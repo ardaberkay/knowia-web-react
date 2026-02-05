@@ -25,8 +25,6 @@ export default function HomeScreen() {
             strokeWidth={1.5}
           />
         </div>
-
-        {/* Bottom-Left: Zeka/Fikir Vurgusu */}
         <div
           className="floating-icon bottom-[35%] left-[12%]"
           style={{ animationDelay: "1s" }}
@@ -37,8 +35,6 @@ export default function HomeScreen() {
             strokeWidth={1.5}
           />
         </div>
-
-        {/* Top-Center (Kartın üstü): Işıltı */}
         <div
           className="floating-icon top-[22%] left-[44%]"
           style={{ animationDelay: "2s" }}
@@ -49,8 +45,6 @@ export default function HomeScreen() {
             strokeWidth={1.5}
           />
         </div>
-
-        {/* Bottom-Center: Hassasiyet/Mühendislik */}
         <div
           className="floating-icon bottom-[12%] left-[38%]"
           style={{ animationDelay: "3s" }}
@@ -61,8 +55,6 @@ export default function HomeScreen() {
             strokeWidth={1.5}
           />
         </div>
-
-        {/* Center-Center (Kartın hemen yanı/arkası): Dinamizm */}
         <div
           className="floating-icon bottom-[45%] left-[45%]"
           style={{ animationDelay: "2s" }}
