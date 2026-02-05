@@ -1,10 +1,9 @@
 import React from 'react';
-import '../../styles/screens/PolicyScreen.css'
 
 export default function PolicyScreen() {
   return (
-    <View>
-      <Text>Merhaba!</Text>
-    </View>
+    <div>
+      <h1>Policy!</h1>
+    </div>
   );
 };

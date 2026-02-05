@@ -1,10 +1,9 @@
 import React from 'react';
-import '../../styles/screens/GuideScreen.css'
 
 export default function GuideScreen() {
   return (
-    <View>
-      <Text>Merhaba!</Text>
-    </View>
+    <div>
+      <h1>Merhaba!</h1>
+    </div>
   );
 };
