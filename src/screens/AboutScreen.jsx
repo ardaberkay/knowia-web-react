@@ -50,7 +50,7 @@ export default function About() {
         </div>
 
         {/* GÖRSEL */}
-        <div className="hidden md:block relative flex justify-center lg:justify-end  items-start lg:mt-[16%] ml-16">
+        <div className="hidden md:block relative flex justify-center lg:justify-end  items-start lg:mt-[16%] ml-20">
           <img
             src={aboutMockup}
             alt="Knowia uygulama ekranı"

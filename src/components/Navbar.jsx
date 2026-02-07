@@ -52,7 +52,7 @@ export default function Navbar() {
           </NavLink>
 
           {/* DESKTOP MENU */}
-          <nav className="hidden md:flex items-center gap-10">
+          <nav className="hidden md:flex items-center gap-10 select-none">
             {links.map((link) => (
               <NavLink
                 key={link.path}

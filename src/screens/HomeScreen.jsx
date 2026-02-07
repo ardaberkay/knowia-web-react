@@ -68,13 +68,13 @@ export default function HomeScreen() {
         <div className="mb-2">
           <AnimatedCard />
         </div>
-        <div>
+        <div className="select-none">
           <h1 className="text-8xl font-bold tracking-tight">Knowia</h1>
         </div>
       </div>
       <div className="flex-1 flex items-center flex-col justify-center">
         <div>
-          <h1 className="text-6xl text-right font-semibold">
+          <h1 className="text-6xl text-white text-right font-semibold">
             Bilgiyi Keşfetmenin <br /> En Dinamik Yolu
           </h1>
         </div>
