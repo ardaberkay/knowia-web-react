@@ -4,5 +4,32 @@
         "about": "Hakkımızda",
         "guides": "Rehber",
         "contact": "İletişim"
+    },
+    "home": {
+        "titleone": "Bilgiyi Keşfetmenin",
+        "titletwo": "En Dinamik Yolu",
+        "flipcard": "Kartı Çevir",
+        "grabknowledge": "Bilgiyi Kap!",
+        "spaced": "Aralıklı Tekrar ile Öğren"
+    },
+    "about": {
+        "title": "Neden Knowia?",
+        "description1": "Knowia, öğrenmeyi daha sade, daha kalıcı ve sürdürülebilir hale getirmek amacıyla geliştirilen bir öğrenme uygulamasıdır.",
+        "description2": "Bu proje, öğrenme sürecinde sıkça karşılaşılan unutma, düzensiz tekrar ve motivasyon kaybı gibi kişisel ihtiyaçlardan yola çıkarak ortaya çıktı. Amaç, öğrenmeyi zorunluluk haline getiren karmaşık yöntemler yerine, kullanıcıya kontrol ve esneklik tanıyan bir öğrenme deneyimi sunmaktı.",
+        "description3": "Knowia, kart tabanlı yapısı ve tekrar odaklı yaklaşımıyla bilgiyi küçük ve yönetilebilir parçalara ayırır. Kullanıcılar, kendi ihtiyaçlarına göre desteler oluşturabilir ya da hazır destelerle öğrenmeye başlayabilir. İster yalnızca kendileri için içerik üretebilir, ister bu içerikleri paylaşarak ya da diğer kullanıcılar tarafından paylaşılan destelerden faydalanarak öğrenme sürecini zenginleştirebilir.",
+        "description4": "Knowia, tekrar aralıklarını ve öğrenme akışını kullanıcının tercihleri doğrultusunda şekillendirerek öğrenmeyi kişisel bir sürece dönüştürür. Bu sayede her kullanıcı, öğrenme sürecini kendi zamanına, hedeflerine ve ihtiyaçlarına uygun şekilde yönetebilir.",
+        "description5": "Sade arayüzü ve akıcı etkileşimleri sayesinde Knowia, odağı dağıtmadan ilerlemeyi hedefler. Öğrenme süreci, zamanla baskı oluşturan bir görev olmaktan çıkar; düzenli ve ulaşılabilir bir alışkanlığa dönüşür.",
+        "description6": "Knowia, gelişmeye devam eden bir üründür. Kullanıcı geri bildirimleriyle şekillenir ve zamanla daha güçlü, daha esnek ve daha kişisel bir öğrenme deneyimi sunmayı amaçlar."
+    },
+    "guide": {
+        "title": "Knowia Rehberi",
+        "description1": "Knowia’yı daha verimli kullanmanız için hazırlanan rehber içerikler üzerinde çalışıyoruz.",
+        "step1": "Knowia ile desteler ve kartlar nasıl oluşturulur?",
+        "step2": "Aralıklı tekrar sistemi nasıl çalışır?",
+        "step3": "Deste içerisinde bölümlerle konular nasıl parçalara ayrılır?",
+        "step4": "Desteleri toplulukla paylaşma ve keşfetme nasıl yapılır?",
+        "coming": "Yakında",
+        "description2": "Öğrenme yolculuğunuzu hızlandırmak için buradayız.",
+        "note": "Mobil uygulama üzerinden tam sürümü deneyimlemeye devam edebilirsiniz."
     }
 }

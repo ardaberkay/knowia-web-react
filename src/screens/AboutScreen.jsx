@@ -1,27 +1,24 @@
 import aboutMockup from "../assets/aboutmobil.png";
+import { useTranslation } from "react-i18next";
 
 export default function About() {
+  const { t } = useTranslation();
   return (
     <section className="mt-20">
       <div className="max-w-6xl mx-auto px-2 grid grid-cols-1 lg:grid-cols-2 gap-10">
         {/* METİN */}
         <div className="text-white">
           <h2 className="text-4xl md:text-5xl font-semibold tracking-tight leading-tight">
-            Neden Knowia?
+            {t("about.title")}
           </h2>
 
           <div className="mt-8 space-y-6 text-gray-300 text-lg leading-relaxed max-w-xl">
             <p className="text-xl text-white">
-              Knowia, öğrenmeyi daha sade, daha kalıcı ve sürdürülebilir hale
-              getirmek amacıyla geliştirilen bir öğrenme uygulamasıdır.
+              {t("about.description1")}
             </p>
 
             <p>
-              Bu proje, öğrenme sürecinde sıkça karşılaşılan unutma, düzensiz
-              tekrar ve motivasyon kaybı gibi kişisel ihtiyaçlardan yola
-              çıkılarak ortaya çıktı. Amaç, öğrenmeyi zorunluluk haline getiren
-              karmaşık yöntemler yerine, kullanıcıya kontrol ve esneklik tanıyan
-              bir öğrenme deneyimi sunmaktı.
+              {t("about.description2")}
             </p>
             <div className="block md:hidden relative flex justify-center lg:justify-end items-start lg:mt-[15%]">
               <img
@@ -31,20 +28,11 @@ export default function About() {
               />
             </div>
             <p>
-              Knowia, kart tabanlı yapısı ve tekrar odaklı yaklaşımıyla bilgiyi
-              küçük ve yönetilebilir parçalara ayırır. Kullanıcılar, kendi
-              ihtiyaçlarına göre desteler oluşturabilir ya da hazır destelerle
-              öğrenmeye başlayabilir. İster yalnızca kendileri için içerik
-              üretebilir, ister bu içerikleri paylaşarak ya da diğer
-              kullanıcılar tarafından paylaşılan destelerden faydalanarak
-              öğrenme sürecini zenginleştirebilir.
+              {t("about.description3")}
             </p>
 
             <p>
-              Knowia, tekrar aralıklarını ve öğrenme akışını kullanıcının
-              tercihleri doğrultusunda şekillendirerek öğrenmeyi kişisel bir
-              sürece dönüştürür. Bu sayede her kullanıcı, öğrenme sürecini kendi
-              zamanına, hedeflerine ve ihtiyaçlarına uygun şekilde yönetebilir.
+              {t("about.description4")}
             </p>
           </div>
         </div>
@@ -61,16 +49,11 @@ export default function About() {
       <div className="max-w-6xl mx-auto px-2 mt-5">
         <div className="space-y-6 text-gray-300 text-lg leading-relaxed">
           <p>
-            Sade arayüzü ve akıcı etkileşimleri sayesinde Knowia, odağı
-            dağıtmadan ilerlemeyi hedefler. Öğrenme süreci, zamanla baskı
-            oluşturan bir görev olmaktan çıkar; düzenli ve ulaşılabilir bir
-            alışkanlığa dönüşür.
+            {t("about.description5")}
           </p>
 
           <p className="text-gray-400">
-            Knowia, gelişmeye devam eden bir üründür. Kullanıcı geri
-            bildirimleriyle şekillenir ve zamanla daha güçlü, daha esnek ve daha
-            kişisel bir öğrenme deneyimi sunmayı amaçlar.
+            {t("about.description6")}
           </p>
         </div>
       </div>

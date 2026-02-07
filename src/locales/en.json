@@ -4,5 +4,32 @@
         "about": "About",
         "guide": "Guide",
         "contact": "Contact"
+    },
+    "home": {
+        "titleone": "Most Dynamic Way",
+        "titletwo": "Discover Knowledge",
+        "flipcard": "Flip Card",
+        "grabknowledge": "Grab Knowledge!",
+        "spaced": "Learn with Spaced Repetition"
+    },
+    "about": {
+        "title": "Why Knowia?",
+        "description1": "Knowia is a learning app designed to make learning simpler, more lasting, and sustainable.",
+        "description2": "Knowia is an evolving product. It is shaped by user feedback and aims to offer a stronger, more flexible, and more personalized learning experience over time.",
+        "description3": "With its card-based structure and repetition-focused approach, Knowia breaks knowledge into small, manageable pieces. Users can create decks tailored to their needs or start learning with pre-made decks. They can produce content solely for themselves or enrich their learning by sharing content or using decks shared by other users.",
+        "description4": "Knowia personalizes learning by adapting repetition intervals and learning flow according to each user's preferences. This allows every user to manage their learning process in a way that fits their own schedule, goals, and needs.",
+        "description5": "With its clean interface and smooth interactions, Knowia helps users progress without distractions. Over time, learning stops feeling like a pressured task and becomes a regular, achievable habit.",
+        "description6": "Knowia is a product that continues to evolve. Shaped by user feedback, it aims to provide an increasingly powerful, flexible, and personalized learning experience over time."
+    },
+    "guide": {
+        "title": "Knowia Guide",
+        "description1": "We’re working on guide content to help you get the most out of Knowia.",
+        "step1": "How to Create Decks and Cards with Knowia?",
+        "step2": "How the Spaced Repetition System Works?",
+        "step3": "How to Break Topics into Sections within a Deck?",
+        "step4": "Sharing and Discovering Decks with the Community",
+        "coming": "Coming Soon",
+        "description2": "Here to accelerate your learning journey.",
+        "note": "You can continue to experience the full version through the mobile app."
     }
 }

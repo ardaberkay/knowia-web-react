@@ -4,9 +4,11 @@ import Logo from "../assets/logo.svg";
 import Lottie from "lottie-react";
 import learningAnim from "../assets/goldbadge.json";
 import { useEffect, useRef } from "react";
+import { useTranslation } from "react-i18next";
 
 const AnimatedCard = () => {
   const lottieRef = useRef();
+  const { t } = useTranslation();
 
   useEffect(() => {
     const triggerAnimation = () => {
@@ -26,7 +28,7 @@ const AnimatedCard = () => {
       <div className="card-inner">
         <div className="front" style={{ caretColor: 'transparent' }}>
           <img src={Logo} alt="Logo" className="w-26 h-26 object-contain" style={{ caretColor: 'transparent' }}/>
-          <p className="heading">Kartı Çevir</p>
+          <p className="heading">{t("home.flipcard", { defaultValue: "Kartı Çevir" })}</p>
         </div>
 
         <div className="back">
@@ -40,9 +42,9 @@ const AnimatedCard = () => {
             />
           </div>
           <div className="flex flex-col items-center justify-center -mt-6 gap-2">
-          <p className="heading">Bilgiyi Kap!</p>
+          <p className="heading">{t("home.grabknowledge", { defaultValue: "Bilgiyi Kap!" })}</p>
           <p className="subtitle text-sm opacity-80">
-            Aralıklı tekrar yöntemiyle öğren
+            {t("home.spaced", { defaultValue: "Aralıklı tekrar yöntemiyle öğren" })}
           </p>
           </div>
         </div>

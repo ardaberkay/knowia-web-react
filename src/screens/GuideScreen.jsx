@@ -1,13 +1,15 @@
 import React from "react";
-
-const guides = [
-  { title: "Knowia ile desteler ve kartlar nasıl oluşturulur?", icon: "📚" },
-  { title: "Aralıklı tekrar sistemi nasıl çalışır?", icon: "🧠" },
-  { title: "Deste içerisinde bölümlerle konular nasıl parçalara ayrılır?", icon: "🗂️" },
-  { title: "Desteleri toplulukla paylaşma ve keşfetme", icon: "🌍" },
-];
+import { useTranslation } from "react-i18next";
 
 export default function GuideScreen() {
+  const { t } = useTranslation();
+  const guides = [
+    { title: t("guide.step1"), icon: "📚" },
+    { title: t("guide.step2"), icon: "🧠" },
+    { title: t("guide.step3"), icon: "🗂️" },
+    { title: t("guide.step4"), icon: "🌍" },
+  ];
+
   return (
     <div className=" flex items-center justify-center px-6 py-20">
       {/* Hafif bir arka plan parlaması - CSS ile */}
@@ -17,11 +19,11 @@ export default function GuideScreen() {
         {/* Header */}
         <div className="text-center mb-12">
           <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-white mb-4">
-            Knowia Rehberi
+            {t("guide.title")}
           </h1>
           <div className="h-0.5 w-20 bg-[#F98A21] mx-auto rounded-full mb-6" />
           <p className="text-white/60 text-base md:text-lg leading-relaxed">
-            Knowia’yı daha verimli kullanmanız için hazırlanan rehber içerikler üzerinde çalışıyoruz.
+            {t("guide.description1")}
           </p>
         </div>
 
@@ -48,7 +50,7 @@ export default function GuideScreen() {
 
               <div className="flex items-center gap-2">
                 <span className="text-[10px] font-semibold uppercase tracking-widest text-white/40 bg-white/5 border border-white/5 px-3 py-1 rounded-full group-hover:text-white/60 transition-colors">
-                  Yakında
+                  {t("guide.coming")}
                 </span>
               </div>
             </div>
@@ -58,12 +60,9 @@ export default function GuideScreen() {
         {/* Footer */}
         <div className="mt-12 text-center">
           <p className="text-sm text-white/30 italic">
-            "Öğrenme yolculuğunuzu hızlandırmak için buradayız."
+            "{t("guide.description2")}"
           </p>
-          <p className="mt-4 text-xs text-white/50">
-            Mobil uygulama üzerinden tam sürümü deneyimlemeye devam
-            edebilirsiniz.
-          </p>
+          <p className="mt-4 text-xs text-white/50">{t("guide.note")}</p>
         </div>
       </div>
     </div>

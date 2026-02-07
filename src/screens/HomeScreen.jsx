@@ -9,8 +9,10 @@ import {
 } from "lucide-react";
 import Google from "../assets/googleplay.svg";
 import Apple from "../assets/apple.svg";
+import { useTranslation } from "react-i18next";
 
 export default function HomeScreen() {
+  const { t } = useTranslation();
   return (
     <div className="flex md:flex-row flex-col pb-12 justify-center items-center h-full mt-8  ">
       <div className="flex flex-1 flex-col items-center justify-center p-8">
@@ -82,7 +84,7 @@ export default function HomeScreen() {
       <div className="flex-1 flex items-center flex-col justify-center">
         <div>
           <h1 className=" text-4xl md:text-6xl text-white text-right font-semibold">
-            Bilgiyi Keşfetmenin <br /> En Dinamik Yolu
+            {t("home.titleone", { defaultValue: "Bilgiyi Keşfetmenin" })} <br /> {t("home.titletwo", { defaultValue: "En Dinamik Yolu" })}
           </h1>
         </div>
         <div className="flex gap-4 flex-col sm:flex-row mt-10 justify-center md:justify-end w-full md:px-5">
