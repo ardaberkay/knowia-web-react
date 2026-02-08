@@ -2,7 +2,7 @@ import React from "react";
 import { Mail } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
-export default function TermsScreen () {
+export default function TermsScreen() {
   const { t } = useTranslation();
   return (
     <div className="min-h-screen">

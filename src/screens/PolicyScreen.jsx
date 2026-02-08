@@ -2,7 +2,7 @@ import React from "react";
 import { Mail, ArrowLeft } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
-export default function PrivcayPolicy () {
+export default function PolicyScreen() {
   const { t } = useTranslation();
   return (
     <div className="min-h-screen">
