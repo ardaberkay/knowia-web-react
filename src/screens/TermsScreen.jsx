@@ -180,4 +180,4 @@ export default function TermsScreen() {
       </div>
     </div>
   );
-};
+}

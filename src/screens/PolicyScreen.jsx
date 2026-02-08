@@ -1,5 +1,5 @@
 import React from "react";
-import { Mail, ArrowLeft } from "lucide-react";
+import { Mail } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
 export default function PolicyScreen() {
@@ -186,4 +186,4 @@ export default function PolicyScreen() {
       </div>
     </div>
   );
-};
+}
