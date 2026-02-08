@@ -1,14 +1,14 @@
-Knowia Web
+# Knowia Web
 
 Knowia Web is the official promotional website for Knowia, a modern flashcard-based learning application designed to make learning more dynamic, simple, and effective.
 
 This website introduces the app, highlights its core features, and provides users with access to mobile app downloads.
 
-🌐 Live Website: https://knowia.online
+🌐 ### Live Website: https://knowia.online
 
-📱 Mobile App: Coming Soon For iOS & Android
+📱 ### Mobile App: Coming Soon For iOS & Android
 
-🚀 Features
+🚀 ## Features
 
 Modern and minimal landing page design
 
@@ -22,7 +22,7 @@ App download links (App Store & Google Play)
 
 Clean and accessible UI
 
-🛠️ Tech Stack
+🛠️ ## Tech Stack
 
 React JS
 
@@ -32,7 +32,7 @@ Tailwind CSS
 
 Vercel (deployment)
 
-📂 Project Purpose
+📂 ## Project Purpose
 
 This repository contains the official website for Knowia.
 
