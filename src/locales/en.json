@@ -1,35 +1,196 @@
 {
-    "navbar": {
-        "home": "Home",
-        "about": "About",
-        "guide": "Guide",
-        "contact": "Contact"
-    },
-    "home": {
-        "titleone": "Most Dynamic Way",
-        "titletwo": "Discover Knowledge",
-        "flipcard": "Flip Card",
-        "grabknowledge": "Grab Knowledge!",
-        "spaced": "Learn with Spaced Repetition"
-    },
-    "about": {
-        "title": "Why Knowia?",
-        "description1": "Knowia is a learning app designed to make learning simpler, more lasting, and sustainable.",
-        "description2": "Knowia is an evolving product. It is shaped by user feedback and aims to offer a stronger, more flexible, and more personalized learning experience over time.",
-        "description3": "With its card-based structure and repetition-focused approach, Knowia breaks knowledge into small, manageable pieces. Users can create decks tailored to their needs or start learning with pre-made decks. They can produce content solely for themselves or enrich their learning by sharing content or using decks shared by other users.",
-        "description4": "Knowia personalizes learning by adapting repetition intervals and learning flow according to each user's preferences. This allows every user to manage their learning process in a way that fits their own schedule, goals, and needs.",
-        "description5": "With its clean interface and smooth interactions, Knowia helps users progress without distractions. Over time, learning stops feeling like a pressured task and becomes a regular, achievable habit.",
-        "description6": "Knowia is a product that continues to evolve. Shaped by user feedback, it aims to provide an increasingly powerful, flexible, and personalized learning experience over time."
-    },
-    "guide": {
-        "title": "Knowia Guide",
-        "description1": "We’re working on guide content to help you get the most out of Knowia.",
-        "step1": "How to Create Decks and Cards with Knowia?",
-        "step2": "How the Spaced Repetition System Works?",
-        "step3": "How to Break Topics into Sections within a Deck?",
-        "step4": "Sharing and Discovering Decks with the Community",
-        "coming": "Coming Soon",
-        "description2": "Here to accelerate your learning journey.",
-        "note": "You can continue to experience the full version through the mobile app."
-    }
+  "navbar": {
+    "home": "Home",
+    "about": "About",
+    "guide": "Guide",
+    "contact": "Contact"
+  },
+  "home": {
+    "titleone": "Most Dynamic Way",
+    "titletwo": "Discover Knowledge",
+    "flipcard": "Flip Card",
+    "grabknowledge": "Grab Knowledge!",
+    "spaced": "Learn with Spaced Repetition"
+  },
+  "about": {
+    "title": "Why Knowia?",
+    "description1": "Knowia is a learning app designed to make learning simpler, more lasting, and sustainable.",
+    "description2": "Knowia is an evolving product. It is shaped by user feedback and aims to offer a stronger, more flexible, and more personalized learning experience over time.",
+    "description3": "With its card-based structure and repetition-focused approach, Knowia breaks knowledge into small, manageable pieces. Users can create decks tailored to their needs or start learning with pre-made decks. They can produce content solely for themselves or enrich their learning by sharing content or using decks shared by other users.",
+    "description4": "Knowia personalizes learning by adapting repetition intervals and learning flow according to each user's preferences. This allows every user to manage their learning process in a way that fits their own schedule, goals, and needs.",
+    "description5": "With its clean interface and smooth interactions, Knowia helps users progress without distractions. Over time, learning stops feeling like a pressured task and becomes a regular, achievable habit.",
+    "description6": "Knowia is a product that continues to evolve. Shaped by user feedback, it aims to provide an increasingly powerful, flexible, and personalized learning experience over time."
+  },
+  "guide": {
+    "title": "Knowia Guide",
+    "description1": "We’re working on guide content to help you get the most out of Knowia.",
+    "step1": "How to Create Decks and Cards with Knowia?",
+    "step2": "How the Spaced Repetition System Works?",
+    "step3": "How to Break Topics into Sections within a Deck?",
+    "step4": "Sharing and Discovering Decks with the Community",
+    "coming": "Coming Soon",
+    "description2": "Here to accelerate your learning journey.",
+    "note": "You can continue to experience the full version through the mobile app."
+  },
+  "error": {
+    "successMessage": "Your message has been successfully delivered to the Knowia team!",
+    "errorMessage": "An error occurred. Please contact us at knowia.app@gmail.com.",
+    "success": "Success"
+  },
+  "contact": {
+    "contactHeader": "Contact Us",
+    "contactText": "We build Knowia together with our users’ ideas. Get in touch to be part of the journey.",
+    "socialHeader": "Join the Community",
+    "formName": "NAME",
+    "formPlaceHolderName": "Your name",
+    "formEmail": "EMAIL",
+    "formPlaceHolderEmail": "your@email.com",
+    "formSubject": "SUBJECT",
+    "formSubject1": "Suggestions and Ideas",
+    "formSubject2": "Bug Report",
+    "formSubject3": "Account Issues",
+    "formSubject4": "Other",
+    "formMessage": "YOUR MESSAGE",
+    "formPlaceHolderMessage": "Write your message here...",
+    "formSubmit": "Send",
+    "sending": "Sending..."
+  },
+  "footer": {
+    "rightReserved": "Knowia All rights reserved",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service"
+  },
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "date": "Last Updated:",
+    "headText": "Knowia (Application) respects the privacy of its users and values the protection of personal data. This Privacy Policy explains what information is collected, how it is used, and how it is stored when you use the Knowia mobile application.",
+    "header1": "Information Collected",
+    "subHeader1": "We may collect the following information:",
+    "list1": [
+      "Email address",
+      "Username",
+      "Profile photo",
+      "Learning progress and in-app activities",
+      "User-created cards, decks, and uploaded images",
+      "Messages sent via feedback forms or email",
+      "Technical information such as device type, operating system, and application version",
+      "Anonymized technical data and crash logs collected to improve application performance and stability"
+    ],
+    "header2": "Purpose of Use of Information",
+    "subHeader2": "The collected information is used for the following purposes:",
+    "list2": [
+      "To create and manage user accounts",
+      "To synchronize learning progress across devices",
+      "To provide card and deck creation, editing, and sharing features",
+      "To display username and profile photo in shared content",
+      "To send account verification, password reset, and informational emails",
+      "To send reminders and notifications via push notifications",
+      "To improve application performance and user experience",
+      "To respond to user feedback"
+    ],
+    "subText": "Personal data is processed within the scope of performance of the user agreement, provision of application services, user consent, and legitimate interest.",
+    "header3": "Authentication and Third-Party Services",
+    "subHeader3": "Knowia may use third-party services for the operation of the application:",
+    "item31": "Supabase",
+    "item32": "(authentication, database, and file storage)",
+    "item33": "Email delivery services",
+    "item34": "Push notification services",
+    "subText2": "These services process only the necessary data and operate in compliance with applicable data protection regulations.",
+    "subText3": "User data is securely stored in encrypted form through the Supabase infrastructure and, depending on server locations, may be transferred abroad (European Union, United States) in compliance with international data protection standards.",
+    "header4": "Content Sharing and Visibility",
+    "subHeader4": "Users may share the cards and decks they create with other users.",
+    "item41": "The following information may be visible to other users in shared content:",
+    "item42": "Username",
+    "item43": "Profile photo",
+    "header5": "Data Retention",
+    "item51": "Personal data is retained for as long as necessary to provide the service.",
+    "item52": "Personal data is protected by appropriate technical and administrative security measures against unauthorized access, loss, or misuse.",
+    "item53": "Users may submit an account deletion request via the “Delete Account” option in the profile section of the application. After the request is submitted, the account is deactivated and access to the application is blocked. The account and related data are permanently deleted within a reasonable period (no later than 30 days).",
+    "subText4": "Once the account deletion process is completed, your profile information, created content, and in-app data are irreversibly removed from the system.",
+    "subText5": "Alternatively, users may submit an account deletion request by contacting our support team via email.",
+    "header6": "Children’s Privacy",
+    "item61": "Knowia is designed for users aged 13 and above.",
+    "item62": "Personal information is not knowingly collected from children under the age of 13. If a parent or legal guardian becomes aware that personal information of a child under 13 has been collected, please contact us. In such cases, we will take the necessary steps to promptly delete the relevant information.",
+    "header7": "Advertisements and Premium Features",
+    "item71": "Knowia is currently free of charge.",
+    "subText6": "Optional premium features or advertisements may be offered in the future. Such changes will be updated in this Privacy Policy.",
+    "header8": "User Rights",
+    "subHeader5": "Depending on your country of residence, you may have the following rights:",
+    "item81": "Access your personal data",
+    "item82": "Request correction or deletion of your data",
+    "item83": "Withdraw your consent regarding the processing of your data",
+    "subText7": "You have the right to learn whether your personal data is being processed, to request information if it has been processed, and to request correction of incomplete or incorrectly processed data. To exercise these rights, you may contact us via our contact email address.",
+    "header9": "Policy Updates",
+    "item91": "Knowia may update this Privacy Policy from time to time. Significant changes may be communicated to users via the application or by email.",
+    "header10": "Data Controller",
+    "item101": "The data controller of the Knowia application is Knowia (Turkey).",
+    "header11": "Contact",
+    "item111": "For privacy policy, personal data, and other related requests:"
+  },
+  "termsService": {
+    "title": "Terms of Service",
+    "date": "Last Updated:",
+
+    "headText": "By using the Knowia application, you agree to these Terms of Service. If you do not agree to these terms, you must not use the application.",
+
+    "header1": "Eligibility",
+    "item11": "You must be at least 13 years old to use Knowia.",
+    "item12": "Users between the ages of 13 and 18 are deemed to have accepted these terms with the consent of their parent or legal guardian.",
+
+    "header2": "Accounts",
+    "list1": [
+      "You are responsible for maintaining the confidentiality of your account information.",
+      "You are required to provide accurate and up-to-date information.",
+      "You are responsible for all activities carried out through your account."
+    ],
+    "subText11": "If you suspect unauthorized use of your account, you must immediately notify us at: ",
+
+    "header3": "User-Generated Content",
+    "subHeader2": "Users may:",
+    "list2": [
+      "Create cards and decks.",
+      "Upload text and images.",
+      "Share their content with other users."
+    ],
+    "subText21": "Users are responsible for ensuring that shared content complies with applicable laws and third-party rights.",
+    "subText22": "By uploading content, you grant Knowia a worldwide, royalty-free license to store, display, and distribute such content within the application.",
+
+    "header4": "Content Visibility",
+    "item21": "Shared cards and decks may be visible to other users.",
+    "item22": "Knowia is not responsible for user interactions with shared content.",
+
+    "header5": "Acceptable Use and Zero Tolerance",
+    "subHeader3": "Knowia prioritizes community safety. The sharing of obscene content, hate speech, encouragement of violence, bullying, and illegal content within the application is strictly prohibited.",
+    "list3": [
+      "Zero Tolerance: Content that violates these rules will be reviewed within 24 hours upon notification and removed immediately if deemed inappropriate.",
+      "Enforcement: Accounts of users who violate the rules may be suspended or permanently deleted.",
+      "Reporting: Users may report any inappropriate content or user through the \"Report\" feature within the application."
+    ],
+
+    "header6": "Premium Features",
+    "item31": "Knowia may offer paid features or subscriptions in the future.",
+    "subText31": "Details of such features will be specified separately within the application.",
+
+    "header7": "Account Termination",
+    "item41": "Users may submit an account deletion request via the \"Delete Account\" button within the application or by contacting the support email address.",
+    "item42": "In case of violation of these terms, Knowia may suspend or permanently delete the user account.",
+    "subText41": "Once the account deletion process is completed, personal data belonging to the user will be removed from our systems, except where legally required.",
+
+    "header8": "Intellectual Property Rights",
+    "item51": "The application’s design, logos, texts, and software code belong to Knowia and may not be copied or used without authorization.",
+
+    "header9": "Disclaimer",
+    "item61": "Knowia is provided \"as is\".",
+    "subText51": "There is no guarantee that the application will operate uninterrupted or error-free.",
+
+    "header10": "Changes to the Terms",
+    "item71": "These Terms of Service may be updated from time to time.",
+    "item72": "Continued use of the application constitutes acceptance of the updated terms.",
+
+    "header11": "Store Disclaimer",
+    "item81": "This agreement is solely between the user and Knowia. Apple and Google are not responsible for the application’s content or the support provided.",
+
+    "header12": "Contact",
+    "item91": "For questions and feedback:"
+  }
 }

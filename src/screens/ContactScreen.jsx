@@ -1,10 +1,12 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { Send, Mail, ChevronRight, Instagram, Linkedin } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 const ContactScreen = () => {
   const form = useRef();
   const [isSending, setIsSending] = useState(false);
+  const { t } = useTranslation();
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -19,12 +21,12 @@ const ContactScreen = () => {
       )
       .then(
         (response) => {
-          console.log("Başarılı:", response.status, response.text);
-          alert("Mesajın başarıyla Knowia ekibine ulaştı! ✅");
+          console.log(t("error.success"), response.status, response.text);
+          alert(t("error.successMessage"));
           e.target.reset();
         },
         (error) => {
-          alert("Bir hata oluştu, lütfen mail@knowia.app üzerinden ulaşın. ❌");
+          alert(t("error.errorMessage"));
           console.log(error.text);
         },
       )
@@ -37,11 +39,10 @@ const ContactScreen = () => {
         <div className="space-y-12">
           <div>
             <h1 className="text-6xl font-light text-white mb-6 tracking-tighter">
-              Bize Yazın<span className="text-[#F98A21]">.</span>
+              {t("contact.contactHeader")}<span className="text-[#F98A21]">.</span>
             </h1>
             <p className="text-xl text-gray-400 font-light leading-relaxed max-w-md">
-              Knowia'yı kullanıcılarımızın fikirleriyle inşa ediyoruz. Sürece
-              dahil olmak için bize ulaşın.
+              {t("contact.contactText")}
             </p>
           </div>
 
@@ -62,7 +63,7 @@ const ContactScreen = () => {
               {/* Üst Başlık: İnce, zarif ve geniş aralıklı */}
               <div className="flex items-center gap-3 ml-1">
                 <span className="text-[16px] font-semibold text-gray-500 uppercase tracking-[0.3em]">
-                  Topluluğa Katıl
+                  {t("contact.socialHeader")}
                 </span>
                 <div className="h-[1px] w-8 bg-[#F98A21]/30"></div>
               </div>
@@ -74,7 +75,7 @@ const ContactScreen = () => {
                   <div className="absolute -inset-2 bg-[#F98A21] rounded-full blur-xl opacity-0 group-hover:opacity-20 transition duration-500"></div>
 
                   <a
-                    href="https://instagram.com/knowia"
+                    href="https://instagram.com/knowiaapp"
                     target="_blank"
                     rel="noreferrer"
                     className="relative w-14 h-14 rounded-2xl bg-white/5 border border-white/10 flex items-center justify-center text-gray-400 hover:text-[#F98A21] hover:border-[#F98A21]/50 transition-all duration-300"
@@ -89,7 +90,7 @@ const ContactScreen = () => {
                   <div className="absolute -inset-2 bg-[#F98A21] rounded-full blur-xl opacity-0 group-hover:opacity-20 transition duration-500"></div>
 
                   <a
-                    href="https://linkedin.com/company/knowia"
+                    href="-"
                     target="_blank"
                     rel="noreferrer"
                     className="relative w-14 h-14 rounded-2xl bg-white/5 border border-white/10 flex items-center justify-center text-gray-400 hover:text-[#F98A21] hover:border-[#F98A21]/50 transition-all duration-300"
@@ -111,43 +112,43 @@ const ContactScreen = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="space-y-2">
                   <label className="text-xs font-medium text-gray-500 uppercase tracking-widest ml-1">
-                    İsim
+                    {t("contact.formName")}
                   </label>
                   <input
                     type="text"
                     name="from_name"
                     required
                     className="w-full bg-[#1C1C1C] border border-white/5 focus:border-[#F98A21]/50 rounded-2xl px-5 py-4 outline-none transition-all text-gray-200 placeholder:text-gray-600 focus:ring-1 focus:ring-[#F98A21]/20"
-                    placeholder="Adınız"
+                    placeholder={t("contact.formPlaceHolderName")}
                   />
                 </div>
                 <div className="space-y-2">
                   <label className="text-xs font-medium text-gray-500 uppercase tracking-widest ml-1">
-                    E-Posta
+                    {t("contact.formEmail")}
                   </label>
                   <input
                     type="email"
                     name="from_email"
                     required
                     className="w-full bg-[#1C1C1C] border border-white/5 focus:border-[#F98A21]/50 rounded-2xl px-5 py-4 outline-none transition-all text-gray-200 placeholder:text-gray-600 focus:ring-1 focus:ring-[#F98A21]/20"
-                    placeholder="mail@adresiniz.com"
+                    placeholder={t("contact.formPlaceHolderEmail")}
                   />
                 </div>
               </div>
 
               <div className="space-y-2">
                 <label className="text-xs font-medium text-gray-500 uppercase tracking-widest ml-1">
-                  Konu
+                  {t("contact.formSubject")}
                 </label>
                 <div className="relative">
                   <select
                     name="subject"
                     className="w-full bg-[#1C1C1C] border border-white/5 focus:border-[#F98A21]/50 rounded-2xl px-5 py-4 outline-none transition-all text-gray-300 appearance-none cursor-pointer"
                   >
-                    <option>Öneri ve Fikir</option>
-                    <option>Hata Bildirimi</option>
-                    <option>Hesap Sorunları</option>
-                    <option>Diğer</option>
+                    <option>{t("contact.formSubject1")}</option>
+                    <option>{t("contact.formSubject2")}</option>
+                    <option>{t("contact.formSubject3")}</option>
+                    <option>{t("contact.formSubject4")}</option>
                   </select>
                   <div className="absolute right-5 top-1/2 -translate-y-1/2 pointer-events-none text-gray-500">
                     <ChevronRight size={18} className="rotate-90" />
@@ -157,14 +158,14 @@ const ContactScreen = () => {
 
               <div className="space-y-2">
                 <label className="text-xs font-medium text-gray-500 uppercase tracking-widest ml-1">
-                  Mesajınız
+                  {t("contact.formMessage")}
                 </label>
                 <textarea
                   rows="4"
                   name="message"
                   required
                   className="w-full bg-[#1C1C1C] border border-white/5 focus:border-[#F98A21]/50 rounded-2xl px-5 py-4 outline-none transition-all text-gray-200 placeholder:text-gray-600 resize-none focus:ring-1 focus:ring-[#F98A21]/20"
-                  placeholder="Bize her şeyi anlatabilirsiniz..."
+                  placeholder={t("contact.formPlaceHolderMessage")}
                 ></textarea>
               </div>
 
@@ -173,7 +174,7 @@ const ContactScreen = () => {
                 disabled={isSending}
                 className="w-full bg-white text-black font-semibold py-5 rounded-2xl hover:bg-[#F98A21] hover:text-white transition-all duration-300 flex items-center justify-center gap-3 group/btn shadow-xl shadow-[#F98A21]/5 cursor-pointer"
               >
-                <span>{isSending ? "Gönderiliyor..." : "Gönder"}</span>
+                <span>{isSending ? t("contact.sending") : t("contact.formSubmit")}</span>
                 <Send
                   size={18}
                   className="group-hover/btn:translate-x-1 group-hover/btn:-translate-y-1 transition-transform"

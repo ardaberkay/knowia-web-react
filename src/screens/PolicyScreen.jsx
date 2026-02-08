@@ -1,44 +1,34 @@
 import React from "react";
 import { Mail, ArrowLeft } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 const PrivacyPolicy = () => {
+  const { t } = useTranslation();
   return (
     <div className="min-h-screen">
       <div className="max-w-7xl mx-auto px-6 py-15">
         {/* Başlık Bölümü */}
         <header className="mb-12 border-b border-gray-800 pb-12">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-2">
-            Gizlilik Politikası
+            {t("privacyPolicy.title", { defaultValue: "Gizlilik Politikası" })}
           </h1>
           <p className="text-[#FF6B35] font-medium">
-            Son Güncelleme: 05.02.2026
+            {t("privacyPolicy.date")} 05.02.2026
           </p>
         </header>
 
         {/* Metin İçeriği */}
         <article className="prose max-w-none space-y-10 leading-relaxed">
           <p className="text-lg">
-            Knowia (“Uygulama”), kullanıcılarının gizliliğine saygı duyar ve
-            kişisel verilerin korunmasını önemser. Bu Gizlilik Politikası,
-            Knowia mobil uygulamasını kullandığınızda hangi bilgilerin
-            toplandığını, nasıl kullanıldığını ve nasıl saklandığını açıklar.
+            {t("privacyPolicy.headText")}
           </p>
           <section>
             <h2 className="text-2xl font-bold text-white mb-4 flex items-center gap-3">
-              <span>1.</span>Toplanan Bilgiler
+              <span>1.</span>{t("privacyPolicy.header1")}
             </h2>
-            <p className="mb-4">Aşağıdaki bilgileri toplayabiliriz:</p>
+            <p className="mb-4">{t("privacyPolicy.subHeader1")}</p>
             <ul className="flex flex-col md:grid-cols-2 gap-x-8 gap-y-2 list-none p-0 ml-4">
-              {[
-                "E-posta adresi",
-                "Kullanıcı adı",
-                "Profil fotoğrafı",
-                "Öğrenme ilerlemesi ve uygulama içi aktiviteler",
-                "Kullanıcı tarafından oluşturulan kartlar, desteler ve yüklenen görseller",
-                "Geri bildirim formları veya e-posta yoluyla gönderilen mesajlar",
-                "Cihaz türü, işletim sistemi ve uygulama sürümü gibi teknik bilgiler",
-                "Uygulama performansını ve kararlılığını iyileştirmek amacıyla anonimleştirilmiş teknik bilgiler ve hata günlükleri (crash logs) toplanmaktadır.",
-              ].map((item) => (
+              {t("privacyPolicy.list1", { returnObjects: true }).map((item) => (
                 <li key={item} className="flex items-center gap-3">
                   <div className="w-1.5 h-1.5 bg-[#FF6B35] rounded-full" />{" "}
                   {item}
@@ -49,22 +39,13 @@ const PrivacyPolicy = () => {
 
           <section>
             <h2 className="text-2xl font-bold text-white mb-4 flex items-center gap-3">
-              <span>2.</span>Bilgilerin Kullanım Amacı
+              <span>2.</span>{t("privacyPolicy.header2")}
             </h2>
             <p className="mb-4">
-              Toplanan bilgiler aşağıdaki amaçlarla kullanılır:
+              {t("privacyPolicy.subHeader2")}
             </p>
             <ul className="space-y-3 list-none p-0 ml-4">
-              {[
-                "Kullanıcı hesabı oluşturmak ve yönetmek",
-                "Öğrenme ilerlemesini cihazlar arasında senkronize etmek",
-                "Kart ve deste oluşturma, düzenleme ve paylaşma özelliklerini sağlamak",
-                "Paylaşılan içeriklerde kullanıcı adı ve profil fotoğrafını göstermek",
-                "Hesap doğrulama, şifre sıfırlama ve bilgilendirme e-postaları göndermek",
-                "Push bildirimleri ile hatırlatma ve bilgilendirme yapmak",
-                "Uygulama performansını ve kullanıcı deneyimini geliştirmek",
-                "Kullanıcı geri bildirimlerine yanıt vermek",
-              ].map((item) => (
+              {t("privacyPolicy.list2", { returnObjects: true }).map((item) => (
                 <li key={item} className="flex items-center gap-3">
                   <div className="w-1.5 h-1.5 bg-[#FF6B35] rounded-full" />{" "}
                   {item}
@@ -72,155 +53,127 @@ const PrivacyPolicy = () => {
               ))}
             </ul>
             <p className="mt-4">
-              Kişisel veriler; kullanıcı sözleşmesinin ifası, uygulama
-              hizmetlerinin sunulması, kullanıcı onayı ve meşru menfaat
-              kapsamında işlenmektedir.
+              {t("privacyPolicy.subText")}
             </p>
           </section>
 
           <section>
             <h2 className="text-2xl font-bold text-white mb-4 flex items-center gap-3">
-              <span>3.</span>Kimlik Doğrulama ve Üçüncü Taraf Hizmetler
+              <span>3.</span>{t("privacyPolicy.header3")}
             </h2>
             <p>
-              Knowia, uygulamanın çalışması için üçüncü taraf hizmetler
-              kullanabilir:
+              {t("privacyPolicy.subHeader3")}
             </p>
             <div className="bg-[#262626] p-6 rounded-xl border border-gray-800 mt-4 space-y-4">
               <p>
-                <strong>Supabase</strong> (kimlik doğrulama, veritabanı ve dosya
-                depolama)
+                <strong>{t("privacyPolicy.item31")}</strong> {t("privacyPolicy.item32")}
               </p>
-              <p>E-posta gönderim servisleri</p>
-              <p>Push bildirim servisleri</p>
+              <p>{t("privacyPolicy.item33")}</p>
+              <p>{t("privacyPolicy.item34")}</p>
               <p className="text-sm text-gray-500 border-t border-gray-700 pt-4 italic">
-                Bu hizmetler yalnızca gerekli verileri işler ve geçerli veri
-                koruma düzenlemelerine uygun şekilde çalışır.
+                {t("privacyPolicy.subText2")}
                 <br />
-                Kullanıcı verileri, Supabase altyapısı üzerinden güvenli bir
-                şekilde şifrelenerek saklanmakta ve sunucu konumlarına bağlı
-                olarak uluslararası veri koruma standartlarına uygun şekilde
-                yurt dışına(Avrupa Birliği, ABD) aktarılabilmektedir.
+                {t("privacyPolicy.subText3")}
               </p>
             </div>
           </section>
 
           <section>
             <h2 className="text-2xl font-bold text-white mb-4 flex items-center gap-3">
-              <span>4.</span>İçerik Paylaşımı ve Görünürlük
+              <span>4.</span>{t("privacyPolicy.header4")}
             </h2>
             <p>
-              Kullanıcılar, oluşturdukları kart ve desteleri diğer
-              kullanıcılarla paylaşabilir.
+              {t("privacyPolicy.subHeader4")}
             </p>
             <div className="mt-4 p-4 border-l-2 border-[#FF6B35] bg-[#262626]/50">
               <p className="font-semibold mb-2">
-                Paylaşılan içeriklerde aşağıdaki bilgiler diğer kullanıcılar
-                tarafından görülebilir:
+                {t("privacyPolicy.item41")}
               </p>
               <ul className="list-disc list-inside ml-4 text-gray-400">
-                <li>Kullanıcı adı</li>
-                <li>Profil fotoğrafı</li>
+                <li>{t("privacyPolicy.item42")}</li>
+                <li>{t("privacyPolicy.item43")}</li>
               </ul>
             </div>
           </section>
 
           <section>
             <h2 className="text-2xl font-bold text-white mb-4 flex items-center gap-3">
-              <span>5.</span>Veri Saklama
+              <span>5.</span>{t("privacyPolicy.header5")}
             </h2>
             <p>
-              Kişisel veriler, hizmetin sağlanması için gerekli olduğu sürece
-              saklanır.
+              {t("privacyPolicy.item51")}
             </p>
             <p className="mt-2">
-              Kişisel veriler, yetkisiz erişim, kayıp veya kötüye kullanıma
-              karşı uygun teknik ve idari güvenlik önlemleriyle korunur.
+              {t("privacyPolicy.item52")}
             </p>
             <p className="mt-2">
-              Kullanıcılar, uygulama içerisindeki profil sekmesindeki “Hesabı
-              Sil” seçeneği üzerinden hesap silme talebi oluşturabilir. Talep
-              oluşturulduktan sonra hesap pasif hale getirilir ve uygulamaya
-              erişim engellenir. Hesap ve ilişkili veriler makul bir süre(en geç
-              30 gün) içerisinde kalıcı olarak silinir.
-            </p>
-            <p className="text-sm text-gray-500 pt-4 italic">
-              Alternatif olarak, destek ekibimizle e-posta yoluyla iletişime
-              geçerek de hesap silme talebinde bulunabilirler.
+              {t("privacyPolicy.item53")}
             </p>
             <p className="mt-4 italic text-gray-400">
-              Hesap silme işlemi gerçekleştirildiğinde; profil bilgileriniz,
-              oluşturduğunuz içerikler ve uygulama içi verileriniz geri
-              döndürülemez şekilde sistemden temizlenir.
+              {t("privacyPolicy.subText4")}
+            </p>
+            <p className="text-sm text-gray-500 pt-4 italic">
+              {t("privacyPolicy.subText5")}
             </p>
           </section>
 
           <section>
             <h2 className="text-2xl font-bold text-white mb-4 flex items-center gap-3">
-              <span>6.</span>Çocukların Gizliliği
+              <span>6.</span>{t("privacyPolicy.header6")}
             </h2>
-            <p>Knowia 13 yaş ve üzeri kullanıcılar için tasarlanmıştır.</p>
+            <p>{t("privacyPolicy.item61")}</p>
             <p className="mt-2">
-              13 yaş altındaki çocuklardan bilerek kişisel veri toplanmaz.
+              {t("privacyPolicy.item62")}
             </p>
           </section>
 
           <section>
             <h2 className="text-2xl font-bold text-white mb-4 flex items-center gap-3">
-              <span>7.</span>Reklamlar ve Premium Özellikler
+              <span>7.</span>{t("privacyPolicy.header7")}
             </h2>
-            <p>Knowia şu anda ücretsizdir.</p>
+            <p>{t("privacyPolicy.item71")}</p>
             <p className="mt-2 text-gray-400">
-              Gelecekte isteğe bağlı premium özellikler veya reklamlar
-              sunulabilir. Bu tür değişiklikler bu Gizlilik Politikası’nda
-              güncellenecektir.
+              {t("privacyPolicy.subText6")}
             </p>
           </section>
 
           <section>
             <h2 className="text-2xl font-bold text-white mb-4 flex items-center gap-3">
-              <span>8.</span>Kullanıcı Hakları
+              <span>8.</span>{t("privacyPolicy.header8")}
             </h2>
             <p>
-              Bulunduğunuz ülkeye bağlı olarak aşağıdaki haklara sahip
-              olabilirsiniz:
+              {t("privacyPolicy.subHeader5")}
             </p>
             <ul className="list-disc list-inside mt-2 space-y-1 ml-4">
-              <li>Kişisel verilerinize erişme</li>
-              <li>Verilerin düzeltilmesini veya silinmesini talep etme</li>
-              <li>Verilerinizin işlenmesine ilişkin onayınızı geri çekme</li>
+              <li>{t("privacyPolicy.item81")}</li>
+              <li>{t("privacyPolicy.item82")}</li>
+              <li>{t("privacyPolicy.item83")}</li>
             </ul>
             <p className="mt-4 text-gray-400 italic">
-              Kişisel verilerinizin işlenip işlenmediğini öğrenme, işlenmişse
-              bilgi talep etme ve eksik/yanlış işlenen verilerin düzeltilmesini
-              isteme haklarına sahipsiniz. Bu haklarınızı kullanmak için
-              iletişim e-postamız üzerinden bize ulaşabilirsiniz.
+              {t("privacyPolicy.subText7")}
             </p>
           </section>
 
           <section>
             <h2 className="text-2xl font-bold text-white mb-4 flex items-center gap-3">
-              <span>9.</span>Politika Güncellemeleri
+              <span>9.</span>{t("privacyPolicy.header9")}
             </h2>
             <p>
-              Knowia, bu Gizlilik Politikası’nı zaman zaman güncelleyebilir.
-              Önemli değişiklikler uygulama içinden veya e-posta yoluyla
-              kullanıcıya bildirilebilir.
+              {t("privacyPolicy.item91")}
             </p>
           </section>
 
           <section>
             <h2 className="text-2xl font-bold text-white mb-4 flex items-center gap-3">
-              <span>10.</span>Veri Sorumlusu
+              <span>10.</span>{t("privacyPolicy.header10")}
             </h2>
-            <p>Knowia uygulamasının veri sorumlusu Knowia’dır (Türkiye).</p>
+            <p>{t("privacyPolicy.item101")}</p>
           </section>
 
           <section className="bg-gradient-to-br from-[#262626] to-[#1C1C1C] p-8 rounded-3xl border border-gray-800 text-center mt-20">
-            <h2 className="text-2xl font-bold text-white mb-6">İletişim</h2>
+            <h2 className="text-2xl font-bold text-white mb-6">{t("privacyPolicy.header11")}</h2>
             <p className="mb-6 text-gray-400">
-              Gizlilik politikası, kişisel veriler ve diğer ilgili talepler
-              için:
+              {t("privacyPolicy.item111")}
             </p>
             <a
               href="mailto:knowia.app@gmail.com"

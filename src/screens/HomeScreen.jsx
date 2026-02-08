@@ -92,7 +92,7 @@ export default function HomeScreen() {
           <button className="bg-white text-black flex items-center justify-center gap-3 px-6 py-3 rounded-2xl hover:scale-105 transition-all shadow-lg border border-gray-100 cursor-pointer group w-full sm:w-auto">
             <img src={Apple} alt="Apple App Store" className="w-6 h-6" />
             <div className="flex flex-col items-start leading-none">
-              <span className="text-[10px] font-bold uppercase opacity-50 mb-0.5">
+              <span className="text-[10px] font-semibold uppercase opacity-50 mb-0.5">
                 Download on the
               </span>
               <span className="text-xl font-bold tracking-tight">
@@ -104,7 +104,7 @@ export default function HomeScreen() {
           <button className="bg-white text-black flex items-center justify-center gap-3 px-6 py-3 rounded-2xl hover:scale-105 transition-all shadow-lg border border-gray-100 cursor-pointer group w-full sm:w-auto">
             <img src={Google} alt="Google Play" className="w-6 h-6" />
             <div className="flex flex-col items-start leading-none">
-              <span className="text-[10px] font-bold uppercase opacity-50 mb-0.5">
+              <span className="text-[10px] font-semibold uppercase opacity-50 mb-0.5">
                 Get it on
               </span>
               <span className="text-xl font-bold tracking-tight">

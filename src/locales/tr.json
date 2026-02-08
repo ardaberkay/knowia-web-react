@@ -1,35 +1,205 @@
 {
-    "navbar": {
-        "home": "Ana Sayfa",
-        "about": "Hakkımızda",
-        "guides": "Rehber",
-        "contact": "İletişim"
-    },
-    "home": {
-        "titleone": "Bilgiyi Keşfetmenin",
-        "titletwo": "En Dinamik Yolu",
-        "flipcard": "Kartı Çevir",
-        "grabknowledge": "Bilgiyi Kap!",
-        "spaced": "Aralıklı Tekrar ile Öğren"
-    },
-    "about": {
-        "title": "Neden Knowia?",
-        "description1": "Knowia, öğrenmeyi daha sade, daha kalıcı ve sürdürülebilir hale getirmek amacıyla geliştirilen bir öğrenme uygulamasıdır.",
-        "description2": "Bu proje, öğrenme sürecinde sıkça karşılaşılan unutma, düzensiz tekrar ve motivasyon kaybı gibi kişisel ihtiyaçlardan yola çıkarak ortaya çıktı. Amaç, öğrenmeyi zorunluluk haline getiren karmaşık yöntemler yerine, kullanıcıya kontrol ve esneklik tanıyan bir öğrenme deneyimi sunmaktı.",
-        "description3": "Knowia, kart tabanlı yapısı ve tekrar odaklı yaklaşımıyla bilgiyi küçük ve yönetilebilir parçalara ayırır. Kullanıcılar, kendi ihtiyaçlarına göre desteler oluşturabilir ya da hazır destelerle öğrenmeye başlayabilir. İster yalnızca kendileri için içerik üretebilir, ister bu içerikleri paylaşarak ya da diğer kullanıcılar tarafından paylaşılan destelerden faydalanarak öğrenme sürecini zenginleştirebilir.",
-        "description4": "Knowia, tekrar aralıklarını ve öğrenme akışını kullanıcının tercihleri doğrultusunda şekillendirerek öğrenmeyi kişisel bir sürece dönüştürür. Bu sayede her kullanıcı, öğrenme sürecini kendi zamanına, hedeflerine ve ihtiyaçlarına uygun şekilde yönetebilir.",
-        "description5": "Sade arayüzü ve akıcı etkileşimleri sayesinde Knowia, odağı dağıtmadan ilerlemeyi hedefler. Öğrenme süreci, zamanla baskı oluşturan bir görev olmaktan çıkar; düzenli ve ulaşılabilir bir alışkanlığa dönüşür.",
-        "description6": "Knowia, gelişmeye devam eden bir üründür. Kullanıcı geri bildirimleriyle şekillenir ve zamanla daha güçlü, daha esnek ve daha kişisel bir öğrenme deneyimi sunmayı amaçlar."
-    },
-    "guide": {
-        "title": "Knowia Rehberi",
-        "description1": "Knowia’yı daha verimli kullanmanız için hazırlanan rehber içerikler üzerinde çalışıyoruz.",
-        "step1": "Knowia ile desteler ve kartlar nasıl oluşturulur?",
-        "step2": "Aralıklı tekrar sistemi nasıl çalışır?",
-        "step3": "Deste içerisinde bölümlerle konular nasıl parçalara ayrılır?",
-        "step4": "Desteleri toplulukla paylaşma ve keşfetme nasıl yapılır?",
-        "coming": "Yakında",
-        "description2": "Öğrenme yolculuğunuzu hızlandırmak için buradayız.",
-        "note": "Mobil uygulama üzerinden tam sürümü deneyimlemeye devam edebilirsiniz."
-    }
+  "navbar": {
+    "home": "Ana Sayfa",
+    "about": "Hakkımızda",
+    "guide": "Rehber",
+    "contact": "İletişim"
+  },
+  "home": {
+    "titleone": "Bilgiyi Keşfetmenin",
+    "titletwo": "En Dinamik Yolu",
+    "flipcard": "Kartı Çevir",
+    "grabknowledge": "Bilgiyi Kap!",
+    "spaced": "Aralıklı Tekrar ile Öğren"
+  },
+  "about": {
+    "title": "Neden Knowia?",
+    "description1": "Knowia, öğrenmeyi daha sade, daha kalıcı ve sürdürülebilir hale getirmek amacıyla geliştirilen bir öğrenme uygulamasıdır.",
+    "description2": "Bu proje, öğrenme sürecinde sıkça karşılaşılan unutma, düzensiz tekrar ve motivasyon kaybı gibi kişisel ihtiyaçlardan yola çıkarak ortaya çıktı. Amaç, öğrenmeyi zorunluluk haline getiren karmaşık yöntemler yerine, kullanıcıya kontrol ve esneklik tanıyan bir öğrenme deneyimi sunmaktı.",
+    "description3": "Knowia, kart tabanlı yapısı ve tekrar odaklı yaklaşımıyla bilgiyi küçük ve yönetilebilir parçalara ayırır. Kullanıcılar, kendi ihtiyaçlarına göre desteler oluşturabilir ya da hazır destelerle öğrenmeye başlayabilir. İster yalnızca kendileri için içerik üretebilir, ister bu içerikleri paylaşarak ya da diğer kullanıcılar tarafından paylaşılan destelerden faydalanarak öğrenme sürecini zenginleştirebilir.",
+    "description4": "Knowia, tekrar aralıklarını ve öğrenme akışını kullanıcının tercihleri doğrultusunda şekillendirerek öğrenmeyi kişisel bir sürece dönüştürür. Bu sayede her kullanıcı, öğrenme sürecini kendi zamanına, hedeflerine ve ihtiyaçlarına uygun şekilde yönetebilir.",
+    "description5": "Sade arayüzü ve akıcı etkileşimleri sayesinde Knowia, odağı dağıtmadan ilerlemeyi hedefler. Öğrenme süreci, zamanla baskı oluşturan bir görev olmaktan çıkar; düzenli ve ulaşılabilir bir alışkanlığa dönüşür.",
+    "description6": "Knowia, gelişmeye devam eden bir üründür. Kullanıcı geri bildirimleriyle şekillenir ve zamanla daha güçlü, daha esnek ve daha kişisel bir öğrenme deneyimi sunmayı amaçlar."
+  },
+  "guide": {
+    "title": "Knowia Rehberi",
+    "description1": "Knowia’yı daha verimli kullanmanız için hazırlanan rehber içerikler üzerinde çalışıyoruz.",
+    "step1": "Knowia ile desteler ve kartlar nasıl oluşturulur?",
+    "step2": "Aralıklı tekrar sistemi nasıl çalışır?",
+    "step3": "Deste içerisinde bölümlerle konular nasıl parçalara ayrılır?",
+    "step4": "Desteleri toplulukla paylaşma ve keşfetme nasıl yapılır?",
+    "coming": "Yakında",
+    "description2": "Öğrenme yolculuğunuzu hızlandırmak için buradayız.",
+    "note": "Mobil uygulama üzerinden tam sürümü deneyimlemeye devam edebilirsiniz."
+  },
+  "error": {
+    "successMessage": "Mesajın başarıyla Knowia ekibine ulaştı!",
+    "errorMessage": "Bir hata oluştu, lütfen knowia.app@gmail.com üzerinden ulaşın.",
+    "success": "Başarılı"
+  },
+  "contact": {
+    "contactHeader": "Bize Yazın",
+    "contactText": "Knowia'yı kullanıcılarımızın fikirleriyle inşa ediyoruz. Sürece dahil olmak için bize ulaşın.",
+    "socialHeader": "Topluluğa Katıl",
+    "formName": "İSİM",
+    "formPlaceHolderName": "Adınız",
+    "formEmail": "E-POSTA",
+    "formPlaceHolderEmail": "mail@adresiniz.com",
+    "formSubject": "KONU",
+    "formSubject1": "Öneri ve Fikir",
+    "formSubject2": "Hata Bildirimi",
+    "formSubject3": "Hesap Sorunları",
+    "formSubject4": "Diğer",
+    "formMessage": "MESAJINIZ",
+    "formPlaceHolderMessage": "Mesajınızı buraya yazın...",
+    "formSubmit": "Gönder",
+    "sending": "Gönderiliyor..."
+  },
+  "footer": {
+    "rightReserved": "Knowia Tüm hakları saklıdır",
+    "privacyPolicy": "Gizlilik Politikası",
+    "termsOfService": "Kullanım Şartları"
+  },
+  "privacyPolicy": {
+    "title": "Gizlilik Politikası",
+    "date": "Son Güncelleme:",
+    "headText": "Knowia (Uygulama), kullanıcılarının gizliliğine saygı duyar ve kişisel verilerin korunmasını önemser. Bu Gizlilik Politikası, Knowia mobil uygulamasını kullandığınızda hangi bilgilerin toplandığını, nasıl kullanıldığını ve nasıl saklandığını açıklar.",
+    "header1": "Toplanan Bilgiler",
+    "subHeader1": "Aşağıdaki bilgileri toplayabiliriz:",
+    "list1": [
+      "E-posta adresi",
+      "Kullanıcı adı",
+      "Profil fotoğrafı",
+      "Öğrenme ilerlemesi ve uygulama içi aktiviteler",
+      "Kullanıcı tarafından oluşturulan kartlar, desteler ve yüklenen görseller",
+      "Geri bildirim formları veya e-posta yoluyla gönderilen mesajlar",
+      "Cihaz türü, işletim sistemi ve uygulama sürümü gibi teknik bilgiler",
+      "Uygulama performansını ve kararlılığını iyileştirmek amacıyla anonimleştirilmiş teknik bilgiler ve hata günlükleri (crash logs) toplanmaktadır."
+    ],
+
+    "header2": "Bilgilerin Kullanım Amacı",
+    "subHeader2": "Toplanan bilgiler aşağıdaki amaçlarla kullanılır:",
+    "list2": [
+      "Kullanıcı hesabı oluşturmak ve yönetmek",
+      "Öğrenme ilerlemesini cihazlar arasında senkronize etmek",
+      "Kart ve deste oluşturma, düzenleme ve paylaşma özelliklerini sağlamak",
+      "Paylaşılan içeriklerde kullanıcı adı ve profil fotoğrafını göstermek",
+      "Hesap doğrulama, şifre sıfırlama ve bilgilendirme e-postaları göndermek",
+      "Push bildirimleri ile hatırlatma ve bilgilendirme yapmak",
+      "Uygulama performansını ve kullanıcı deneyimini geliştirmek",
+      "Kullanıcı geri bildirimlerine yanıt vermek"
+    ],
+    "subText": "Kişisel veriler; kullanıcı sözleşmesinin ifası, uygulama hizmetlerinin sunulması, kullanıcı onayı ve meşru menfaat kapsamında işlenmektedir.",
+
+    "header3": "Kimlik Doğrulama ve Üçüncü Taraf Hizmetleri",
+    "subHeader3": "Knowia, uygulamanın çalışması için üçüncü taraf hizmetler kullanabilir:",
+    "item31": "Supabase",
+    "item32": "(kimlik doğrulama, veritabanı ve dosya depolama)",
+    "item33": "E-posta gönderim servisleri",
+    "item34": "Push bildirim servisleri",
+    "subText2": "Bu hizmetler yalnızca gerekli verileri işler ve geçerli veri koruma düzenlemelerine uygun şekilde çalışır.",
+    "subText3": "Kullanıcı verileri, Supabase altyapısı üzerinden güvenli bir şekilde şifrelenerek saklanmakta ve sunucu konumlarına bağlı olarak uluslararası veri koruma standartlarına uygun şekilde yurt dışına(Avrupa Birliği, ABD) aktarılabilmektedir.",
+
+    "header4": "İçerik Paylaşımı ve Görünürlük",
+    "subHeader4": "Kullanıcılar, oluşturdukları kart ve desteleri diğer kullanıcılarla paylaşabilir.",
+    "item41": "Paylaşılan içeriklerde aşağıdaki bilgiler diğer kullanıcılar tarafından görülebilir:",
+    "item42": "Kullanıcı adı",
+    "item43": "Profil fotoğrafı",
+
+    "header5": "Veri Saklama",
+    "item51": "Kişisel veriler, hizmetin sağlanması için gerekli olduğu sürece saklanır.",
+    "item52": "Kişisel veriler, yetkisiz erişim, kayıp veya kötüye kullanıma karşı uygun teknik ve idari güvenlik önlemleriyle korunur.",
+    "item53": "Kullanıcılar, uygulama içerisindeki profil sekmesindeki “Hesabı Sil” seçeneği üzerinden hesap silme talebi oluşturabilir. Talep oluşturulduktan sonra hesap pasif hale getirilir ve uygulamaya erişim engellenir. Hesap ve ilişkili veriler makul bir süre(en geç 30 gün) içerisinde kalıcı olarak silinir.",
+    "subText4": "Hesap silme işlemi gerçekleştirildiğinde; profil bilgileriniz, oluşturduğunuz içerikler ve uygulama içi verileriniz geri döndürülemez şekilde sistemden temizlenir.",
+    "subText5": "Alternatif olarak, destek ekibimizle e-posta yoluyla iletişime geçerek de hesap silme talebinde bulunabilirler.",
+
+    "header6": "Çocukların Gizliliği",
+    "item61": "Knowia 13 yaş ve üzeri kullanıcılar için tasarlanmıştır.",
+    "item62": "13 yaşından küçük çocuklardan bilerek kişisel bilgi toplanmaz. Eğer bir ebeveyn veya veli, 13 yaşından küçük bir çocuğun kişisel bilgilerinin toplandığını fark ederse, lütfen bizimle iletişime geçsin. Bu durumda, ilgili bilgileri derhal silmek için gerekli adımları atacağız.",
+
+    "header7": "Reklamlar ve Premium Özellikler",
+    "item71": "Knowia şu anda ücretsizdir.",
+    "subText6": "Gelecekte isteğe bağlı premium özellikler veya reklamlar sunulabilir. Bu tür değişiklikler bu Gizlilik Politikası’nda güncellenecektir.",
+
+    "header8": "Kullanıcı Hakları",
+    "subHeader5": "Bulunduğunuz ülkeye bağlı olarak aşağıdaki haklara sahip olabilirsiniz:",
+    "item81": "Kişisel verilerinize erişme",
+    "item82": "Verilerin düzeltilmesini veya silinmesini talep etme",
+    "item83": "Verilerinizin işlenmesine ilişkin onayınızı geri çekme",
+    "subText7": "Kişisel verilerinizin işlenip işlenmediğini öğrenme, işlenmişse bilgi talep etme ve eksik/yanlış işlenen verilerin düzeltilmesini isteme haklarına sahipsiniz. Bu haklarınızı kullanmak için iletişim e-postamız üzerinden bize ulaşabilirsiniz.",
+
+    "header9": "Politika Güncellemeleri",
+    "item91": "Knowia, bu Gizlilik Politikası’nı zaman zaman güncelleyebilir. Önemli değişiklikler uygulama içinden veya e-posta yoluyla kullanıcıya bildirilebilir.",
+
+    "header10": "Veri Sorumlusu",
+    "item101": "Knowia uygulamasının veri sorumlusu Knowia’dır (Türkiye).",
+
+    "header11": "İletişim",
+    "item111": "Gizlilik politikası, kişisel veriler ve diğer ilgili talepler için:"
+  },
+  "termsService": {
+    "title": "Kullanım Şartları",
+    "date": "Son Güncelleme:",
+
+    "headText": "Knowia uygulamasını kullanarak bu Kullanım Şartları’nı kabul etmiş olursunuz. Şartları kabul etmiyorsanız uygulamayı kullanmamalısınız.",
+    "header1": "Uygunluk",
+    "item11": "Knowia’yı kullanabilmek için en az 13 yaşında olmanız gerekir.",
+    "item12": "13-18 yaş arasındaki kullanıcılar, bu şartları ebeveyn veya yasal vasilerinin onayıyla kabul etmiş sayılırlar.",
+
+    "header2": "Hesaplar",
+    "list1": [
+      "Hesap bilgilerinizin gizliliğinden siz sorumlusunuz.",
+      "Doğru ve güncel bilgiler sağlamakla yükümlüsünüz.",
+      "Hesabınız üzerinden gerçekleştirilen tüm işlemlerden siz sorumlusunuz."
+    ],
+    "subText11": "Hesabınızın yetkisiz kullanımından şüpheleniyorsanız derhal adresi üzerinden bize bildirimde bulunmalısınız: ",
+
+    "header3": "Kullanıcı Tarafından Oluşturulan İçerik",
+    "subHeader2": "Kullanıcılar:",
+    "list2": [
+      "Kartlar ve desteler oluşturabilir.",
+      "Metin ve görsel yükleyebilir.",
+      "İçeriklerini diğer kullanıcılarla paylaşabilir."
+    ],
+    "subText21": "Paylaşılan içeriklerin yasalara ve üçüncü taraf haklarına uygun olmasından kullanıcı sorumludur.",
+    "subText22": "İçerik yükleyerek; Knowia'ya bu içeriği uygulama içinde saklamak, görüntülemek ve yaymak için dünya çapında, telifsiz bir kullanım lisansı vermiş olursunuz.",
+
+    "header4": "İçerik Görünürlüğü",
+    "item21": "Paylaşılan kart ve desteler diğer kullanıcılar tarafından görülebilir.",
+    "item22": "Knowia, kullanıcıların paylaşılan içeriklerle olan etkileşimlerinden sorumlu değildir.",
+
+    "header5": "Kabul Edilebilir Kullanım ve Sıfır Tolerans",
+    "subHeader3": "Knowia, topluluk güvenliğini ön planda tutar. Uygulama içerisinde; müstehcenlik, nefret söylemi, şiddet teşviki, zorbalık ve yasadışı içeriklerin paylaşılmasına kesinlikle izin verilmez.",
+    "list3": [
+      "Sıfır Tolerans: Bu kuralları ihlal eden içerikler, bildirim üzerine 24 saat içinde incelenir ve uygunsuz görüldüğü takdirde derhal kaldırılır.",
+      "Yaptırım: Kural ihlali yapan kullanıcıların hesabı askıya alınabilir veya kalıcı olarak silinebilir.",
+      "Raporlama: Kullanıcılar, uygulama içerisindeki \"Rapor Et\" özelliğini kullanarak her türlü uygunsuz içeriği veya kullanıcıyı bize bildirebilirler."
+    ],
+
+    "header6": "Premium Özellikler",
+    "item31": "Knowia, ileride ücretli özellikler veya abonelikler sunabilir.",
+    "subText31": "Bu özelliklerin detayları uygulama içinde ayrıca belirtilecektir.",
+
+    "header7": "Hesap Sonlandırma",
+    "item41": "Kullanıcılar, uygulama içerisindeki \"Hesabı Sil\" butonu ile veya destek e-posta adresi üzerinden hesap silme talebi oluşturabilir.",
+    "item42": "Bu şartların ihlal edilmesi durumunda Knowia, kullanıcı hesabını askıya alabilir veya kalıcı olarak silebilir.",
+    "subText41": "Hesap silme işlemi tamamlandığında, kullanıcıya ait kişisel veriler yasal zorunluluklar hariç sistemimizden temizlenir.",
+
+    "header8": "Fikri Mülkiyet Hakları",
+    "item51": "Uygulamanın tasarımı, logoları, metinleri ve yazılım kodları Knowia'ya aittir. İzinsiz kopyalanamaz veya kullanılamaz.",
+
+    "header9": "Sorumluluk Reddi",
+    "item61": "Knowia “olduğu gibi” sunulmaktadır.",
+    "subText51": "Uygulamanın kesintisiz veya hatasız çalışacağı garanti edilmez.",
+
+    "header10": "Şartlarda Değişiklikler",
+    "item71": "Bu Kullanım Şartları zaman zaman güncellenebilir.",
+    "item72": "Uygulamayı kullanmaya devam etmeniz, güncellenmiş şartları kabul ettiğiniz anlamına gelir.",
+
+    "header11": "Mağaza Feragatnamesi",
+    "item81": "Bu sözleşme sadece kullanıcı ile Knowia arasındadır. Apple ve Google uygulamanın içeriğinden veya sunulan destekten sorumlu değildir.",
+
+    "header12": "İletişim",
+    "item91": "Sorularınız ve geri bildirimleriniz için:"
+  }
 }

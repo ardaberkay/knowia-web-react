@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import Logo from "../assets/logo.svg";
 import { useTranslation } from 'react-i18next';
+import { Globe } from 'lucide-react';
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -123,9 +124,10 @@ export default function Navbar() {
               {/* MOBİL DİL BUTONU (En alta satır olarak eklendi) */}
               <li 
                 onClick={() => { toggleLanguage(); setOpen(false); }}
-                className="px-10 py-5 text-xl font-bold text-white cursor-pointer hover:bg-white/10 transition-colors flex items-center gap-2"
+                className="px-10 py-5 text-xl bg-blue-500/20 font-bold text-white cursor-pointer hover:bg-white/10 transition-colors flex items-center gap-2"
               >
-                🌐 {i18n.language.toUpperCase() === 'TR' ? 'English (EN)' : 'Türkçe (TR)'}
+                <Globe className="w-6 h-6" />
+                {i18n.language.toUpperCase() === 'TR' ? 'English (EN)' : 'Türkçe (TR)'}
               </li>
             </ul>
           </div>
