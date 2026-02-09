@@ -1,16 +1,40 @@
-# React + Vite
+# Knowia Web
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Knowia Web is the official promotional website for Knowia, a modern flashcard-based learning application designed to make learning more dynamic, simple, and effective.
 
-Currently, two official plugins are available:
+This website introduces the app, highlights its core features, and provides users with access to mobile app downloads.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 🌐 Live Website: https://knowia.online
 
-## React Compiler
+### 📱 Mobile App: Coming Soon For iOS & Android
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Features
 
-## Expanding the ESLint configuration
+Modern and minimal landing page design
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Fully responsive (mobile, tablet, desktop)
+
+Smooth animations and transitions
+
+Multi-language support
+
+App download links (App Store & Google Play)
+
+Clean and accessible UI
+
+## 🛠️ Tech Stack
+
+React JS
+
+Vite
+
+Tailwind CSS
+
+Vercel (deployment)
+
+## 📂 Project Purpose
+
+This repository contains the official website for Knowia.
+
+Currently, the project serves as a promotional landing page for the Knowia mobile application.
+In the future, it is planned to evolve into a full-featured web platform, including user authentication, deck creation, and flashcard management.
