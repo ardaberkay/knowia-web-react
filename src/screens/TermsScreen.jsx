@@ -51,6 +51,7 @@ export default function TermsScreen() {
                 knowia.app@gmail.com
               </a>{" "}
             </span>
+            <p className="mt-4">{t("termsService.subText111")}</p>
           </section>
 
           <section>

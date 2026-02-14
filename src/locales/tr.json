@@ -74,7 +74,8 @@
       "Kullanıcı tarafından oluşturulan kartlar, desteler ve yüklenen görseller",
       "Geri bildirim formları veya e-posta yoluyla gönderilen mesajlar",
       "Cihaz türü, işletim sistemi ve uygulama sürümü gibi teknik bilgiler",
-      "Uygulama performansını ve kararlılığını iyileştirmek amacıyla anonimleştirilmiş teknik bilgiler ve hata günlükleri (crash logs) toplanmaktadır."
+      "Uygulama performansını ve kararlılığını iyileştirmek amacıyla anonimleştirilmiş teknik bilgiler ve hata günlükleri (crash logs) toplanmaktadır.",
+      "Google veya Apple ile giriş yapılması durumunda, ilgili sağlayıcı tarafından paylaşılan kimlik doğrulama bilgileri alınabilir."
     ],
 
     "header2": "Bilgilerin Kullanım Amacı",
@@ -98,7 +99,7 @@
     "item33": "E-posta gönderim servisleri",
     "item34": "Push bildirim servisleri",
     "subText2": "Bu hizmetler yalnızca gerekli verileri işler ve geçerli veri koruma düzenlemelerine uygun şekilde çalışır.",
-    "subText3": "Kullanıcı verileri, Supabase altyapısı üzerinden güvenli bir şekilde şifrelenerek saklanmakta ve sunucu konumlarına bağlı olarak uluslararası veri koruma standartlarına uygun şekilde yurt dışına(Avrupa Birliği, ABD) aktarılabilmektedir.",
+    "subText3": "Kullanıcı verileri, Supabase altyapısı üzerinden güvenli bir şekilde şifrelenerek saklanmakta ve sunucu konumlarına bağlı olarak uluslararası veri koruma standartlarına uygun şekilde yurt dışına (Avrupa Birliği, ABD) yürürlükteki veri koruma mevzuatına uygun şekilde aktarılabilmektedir.",
 
     "header4": "İçerik Paylaşımı ve Görünürlük",
     "subHeader4": "Kullanıcılar, oluşturdukları kart ve desteleri diğer kullanıcılarla paylaşabilir.",
@@ -135,7 +136,17 @@
     "item101": "Knowia uygulamasının veri sorumlusu Knowia’dır (Türkiye).",
 
     "header11": "İletişim",
-    "item111": "Gizlilik politikası, kişisel veriler ve diğer ilgili talepler için:"
+    "item111": "Gizlilik politikası, kişisel veriler ve diğer ilgili talepler için:",
+
+    "header12": "İçerik Denetimi ve Kullanıcı Güvenliği",
+    "item112": "Knowia, kullanıcıların oluşturduğu içeriklerden doğrudan sorumlu değildir. Ancak kullanıcı güvenliğini sağlamak amacıyla aşağıdaki önlemleri sunar:",
+    "list3": [
+      "Kullanıcılar diğer kullanıcıları şikayet edebilir.",
+      "Kart ve desteler şikayet edilebilir.",
+      "Kullanıcılar diğer kullanıcıları engelleyebilir.",
+      "Kullanıcılar istemedikleri içerikleri gizleyebilir."
+    ],
+    "item113": "Şikayet edilen içerikler incelenebilir ve topluluk kurallarını ihlal ettiği tespit edilirse kaldırılabilir. Gerekli durumlarda ilgili kullanıcı hesabı askıya alınabilir veya kalıcı olarak kapatılabilir."
   },
   "termsService": {
     "title": "Kullanım Şartları",
@@ -153,6 +164,7 @@
       "Hesabınız üzerinden gerçekleştirilen tüm işlemlerden siz sorumlusunuz."
     ],
     "subText11": "Hesabınızın yetkisiz kullanımından şüpheleniyorsanız derhal adresi üzerinden bize bildirimde bulunmalısınız: ",
+    "subText111": "Knowia, gerekli gördüğü durumlarda kullanıcı hesabını askıya alma veya sonlandırma hakkını saklı tutar.",
 
     "header3": "Kullanıcı Tarafından Oluşturulan İçerik",
     "subHeader2": "Kullanıcılar:",
@@ -171,7 +183,7 @@
     "header5": "Kabul Edilebilir Kullanım ve Sıfır Tolerans",
     "subHeader3": "Knowia, topluluk güvenliğini ön planda tutar. Uygulama içerisinde; müstehcenlik, nefret söylemi, şiddet teşviki, zorbalık ve yasadışı içeriklerin paylaşılmasına kesinlikle izin verilmez.",
     "list3": [
-      "Sıfır Tolerans: Bu kuralları ihlal eden içerikler, bildirim üzerine 24 saat içinde incelenir ve uygunsuz görüldüğü takdirde derhal kaldırılır.",
+      "Sıfır Tolerans: Bu kuralları ihlal eden içerikler, bildirim makul bir süre içinde incelenir ve uygunsuz görüldüğü takdirde derhal kaldırılır.",
       "Yaptırım: Kural ihlali yapan kullanıcıların hesabı askıya alınabilir veya kalıcı olarak silinebilir.",
       "Raporlama: Kullanıcılar, uygulama içerisindeki \"Rapor Et\" özelliğini kullanarak her türlü uygunsuz içeriği veya kullanıcıyı bize bildirebilirler."
     ],

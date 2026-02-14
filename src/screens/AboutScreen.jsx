@@ -1,4 +1,4 @@
-import aboutMockup from "../assets/aboutmobil.png";
+import aboutMockup from "../assets/aboutmob.webp";
 import { useTranslation } from "react-i18next";
 
 export default function About() {

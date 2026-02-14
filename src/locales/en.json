@@ -74,7 +74,8 @@
       "User-created cards, decks, and uploaded images",
       "Messages sent via feedback forms or email",
       "Technical information such as device type, operating system, and application version",
-      "Anonymized technical data and crash logs collected to improve application performance and stability"
+      "Anonymized technical data and crash logs collected to improve application performance and stability",
+      "If users choose to sign in with Google or Apple, authentication information shared by the respective provider may be collected."
     ],
     "header2": "Purpose of Use of Information",
     "subHeader2": "The collected information is used for the following purposes:",
@@ -126,7 +127,17 @@
     "header10": "Data Controller",
     "item101": "The data controller of the Knowia application is Knowia (Turkey).",
     "header11": "Contact",
-    "item111": "For privacy policy, personal data, and other related requests:"
+    "item111": "For privacy policy, personal data, and other related requests:",
+
+    "header12": "Content Moderation and User Safety",
+    "item112": "Knowia is not directly responsible for content created by users. However, to ensure user safety, the application provides the following measures:",
+    "list3": [
+      "Users may report other users.",
+      "Cards and decks can be reported.",
+      "Users may block other users.",
+      "Users may hide content they do not wish to see."
+    ],
+    "item113": "Reported content may be reviewed, and if it is found to violate community guidelines, it may be removed. In appropriate cases, the related user account may be temporarily suspended or permanently terminated."
   },
   "termsService": {
     "title": "Terms of Service",
@@ -145,6 +156,7 @@
       "You are responsible for all activities carried out through your account."
     ],
     "subText11": "If you suspect unauthorized use of your account, you must immediately notify us at: ",
+    "subText111": "Knowia reserves the right to suspend or terminate a user account at its sole discretion when deemed necessary.",
 
     "header3": "User-Generated Content",
     "subHeader2": "Users may:",
@@ -163,7 +175,7 @@
     "header5": "Acceptable Use and Zero Tolerance",
     "subHeader3": "Knowia prioritizes community safety. The sharing of obscene content, hate speech, encouragement of violence, bullying, and illegal content within the application is strictly prohibited.",
     "list3": [
-      "Zero Tolerance: Content that violates these rules will be reviewed within 24 hours upon notification and removed immediately if deemed inappropriate.",
+      "Zero Tolerance: Content that violates these rules will be reviewed within a reasonable timeframe upon notification and removed promptly if deemed inappropriate.",
       "Enforcement: Accounts of users who violate the rules may be suspended or permanently deleted.",
       "Reporting: Users may report any inappropriate content or user through the \"Report\" feature within the application."
     ],
