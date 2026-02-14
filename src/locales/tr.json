@@ -109,8 +109,8 @@
     "header5": "Veri Saklama",
     "item51": "Kişisel veriler, hizmetin sağlanması için gerekli olduğu sürece saklanır.",
     "item52": "Kişisel veriler, yetkisiz erişim, kayıp veya kötüye kullanıma karşı uygun teknik ve idari güvenlik önlemleriyle korunur.",
-    "item53": "Kullanıcılar, uygulama içerisindeki profil sekmesindeki “Hesabı Sil” seçeneği üzerinden hesap silme talebi oluşturabilir. Talep oluşturulduktan sonra hesap pasif hale getirilir ve uygulamaya erişim engellenir. Hesap ve ilişkili veriler makul bir süre(en geç 30 gün) içerisinde kalıcı olarak silinir.",
-    "subText4": "Hesap silme işlemi gerçekleştirildiğinde; profil bilgileriniz, oluşturduğunuz içerikler ve uygulama içi verileriniz geri döndürülemez şekilde sistemden temizlenir.",
+    "item53": "Kullanıcılar, uygulama içerisindeki profil sekmesinde yer alan “Hesabı Sil” seçeneği üzerinden hesaplarını kalıcı olarak silebilir.",
+    "subText4": "Hesap silme işlemi kullanıcı tarafından onaylandığı anda hesap ve ilişkili kişisel veriler kalıcı ve geri döndürülemez şekilde sistemden silinir. Silinen veriler yeniden aktif hale getirilemez veya geri yüklenemez. Yasal yükümlülükler kapsamında saklanması gereken kayıtlar hariç tutulabilir.",
     "subText5": "Alternatif olarak, destek ekibimizle e-posta yoluyla iletişime geçerek de hesap silme talebinde bulunabilirler.",
 
     "header6": "Çocukların Gizliliği",
