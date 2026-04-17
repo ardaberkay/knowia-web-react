@@ -163,18 +163,17 @@ export default function TermsScreen() {
             <p>{t("termsService.item81")}</p>
           </section>
 
-          <section className="bg-gradient-to-br from-[#262626] to-[#1C1C1C] p-8 rounded-3xl border border-gray-800 text-center mt-20">
+          <section className="flex flex-col items-center bg-gradient-to-br from-[#262626] to-[#1C1C1C] p-8 rounded-3xl border border-gray-800 text-center mt-20">
             <h2 className="text-2xl font-bold text-white mb-6">
               {t("termsService.header12")}
             </h2>
-            <p className="mb-6 text-gray-400">
-              {t("termsService.item91")}
-            </p>
+            <p className="mb-6 text-gray-400">{t("termsService.item91")}</p>
             <a
               href="mailto:knowia.app@gmail.com"
-              className="inline-flex items-center gap-2 bg-[#FF6B35] text-white px-8 py-3 rounded-full font-bold hover:bg-[#e85a2a] transition-all shadow-lg shadow-[#FF6B35]/20"
+              className="flex w-fit items-center gap-2 bg-[#FF6B35] text-white px-8 py-3 rounded-full font-bold hover:bg-[#e85a2a] transition-all shadow-lg shadow-[#FF6B35]/20"
             >
-              <Mail size={18} /> knowia.app@gmail.com
+              <Mail size={20} />
+              <span>knowia.app@gmail.com</span>
             </a>
           </section>
         </article>

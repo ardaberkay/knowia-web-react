@@ -7,8 +7,8 @@ import Logo from "../assets/logo.svg";
 const DownloadPage = () => {
   const { t } = useTranslation(); // Çeviri fonksiyonunu çekiyoruz
 
-  const playStoreLink = "https://knowia.online/download";
-  const appStoreLink = "https://knowia.online";
+  const playStoreLink = "https://play.google.com/store/apps/details?id=com.arda.knowia";
+  const appStoreLink = "https://apps.apple.com/tr/app/knowia-flashcards-öğrenme/id6761316889?l=tr";
 
   useEffect(() => {
     // Sadece cihaz yönlendirme mantığı kaldı

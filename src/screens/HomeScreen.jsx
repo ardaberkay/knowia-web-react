@@ -13,8 +13,8 @@ import { useTranslation } from "react-i18next";
 
 export default function HomeScreen() {
   const { t } = useTranslation();
-  const googlePlay = "https://knowia.online/download";
-  const appleStore = "https://knowia.online";
+  const googlePlay = "https://play.google.com/store/apps/details?id=com.arda.knowia";
+  const appleStore = "https://apps.apple.com/tr/app/knowia-flashcards-öğrenme/id6761316889?l=tr";
 
   return (
     <div className="flex md:flex-row flex-col pb-12 justify-center items-center h-full mt-8  ">
@@ -36,7 +36,7 @@ export default function HomeScreen() {
           />
         </div>
         <div
-          className="floating-icon md:bottom-[35%] md:left-[12%] bottom-[36%] left-[12%]"
+          className="floating-icon md:bottom-[35%] md:left-[12%] bottom-[36%] left-[6%]"
           style={{ animationDelay: "1s" }}
         >
           <Brain
